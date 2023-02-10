@@ -1,0 +1,202 @@
+preemptive test, 0, 20
+preemptive test, 0, 20
+preemptive test, 20, 20
+wakeup test, 10, 10
+wakeup all test, 2, 6
+wakeup all test, 2, 6
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wakeup test, 10, 10
+lock test, 2, 14
+cv signal test, 2, 14
+cv broadcast test, 0, 12
+lock test, 2, 14
+cv signal test, 2, 14
+lock test, 2, 14
+lock test, 2, 14
+lock test, 2, 14
+lock test, 0, 14
+lock test, 2, 14
+preemptive test, 0, 20
+preemptive test, 0, 20
+preemptive test, 0, 20
+preemptive test, 20, 20
+wait test, 4, 14
+wait test, 4, 14
+wakeup test, 10, 10
+wakeup all test, 2, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 2, 6
+wakeup all test, 6, 6
+wakeup all test, 2, 6
+wakeup all test, 6, 6
+wakeup all test, 2, 6
+wakeup all test, 2, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 2, 6
+wakeup all test, 6, 6
+wakeup all test, 2, 6
+wakeup test, 10, 10
+wakeup test, 10, 10
+wakeup test, 10, 10
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wait test, 4, 14
+wait test, 1, 14
+wait test, 1, 14
+wait test, 4, 14
+wait test, 4, 14
+wait test, 1, 14
+wait test, 3, 14
+wait test, 3, 14
+wakeup test, 2, 10
+wakeup all test, 2, 6
+preemptive test, 0, 20
+wakeup test, 2, 10
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wait test, 5, 14
+wait test, 4, 14
+wait test, 5, 14
+wait test, 3, 14
+wait test, 5, 14
+wait test, 8, 14
+wait test, 8, 14
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wakeup all test, 6, 6
+wait test, 8, 14
+wait test, 9, 14
+wait test, 9, 14
+wait test, 8, 14
+wait test, 8, 14
+wait test, 5, 14
+wait test, 8, 14
+wait test, 8, 14
+wait test, 8, 14
+wait test, 8, 14
+wait test, 8, 14
+wait test, 7, 14
+wait test, 7, 14
+wait test, 7, 14
+wait test, 9, 14
+wait test, 7, 14
+wait test, 9, 14
+wait test, 7, 14
+wakeup test, 0, 10
+wakeup test, 10, 10
+wakeup all test, 6, 6
+preemptive test, 20, 20
+preemptive test, 0, 20
+wait test, 9, 14
+wait test, 9, 14
+wait test, 9, 14
+wait test, 9, 14
+wakeup test, 2, 10
+wakeup all test, 6, 6
+wakeup test, 10, 10
+wakeup test, 2, 10
+wait test, 9, 14
+wait test, 9, 14
+wait test, 7, 14
+wait test, 9, 14
+lock test, 14, 14
+cv signal test, 10, 14
+cv broadcast test, 10, 12
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wait test, 4, 14
+wait test, 5, 14
+wait test, 9, 14
+lock test, 0, 14
+wait test, 9, 14
+lock test, 12, 14
+lock test, 12, 14
+lock test, 0, 14
+wait test, 9, 14
+wait test, 9, 14
+wakeup test, 10, 10
+wakeup all test, 6, 6
+lock test, 12, 14
+cv signal test, 12, 14
+cv broadcast test, 11, 12
+wait test, 3, 14
+wait test, 9, 14
+wait test, 4, 14
+wait test, 3, 14
+wait test, 6, 14
+wait test, 6, 14
+wait test, 4, 14
+wait test, 4, 14
+wait test, 6, 14
+wait test, 6, 14
+wait test, 10, 14
+lock test, 10, 14
+cv signal test, 9, 14
+cv broadcast test, 9, 12
+wait test, 3, 14
+wait test, 3, 14
+wait test, 3, 14
+wait test, 3, 14
+wait test, 3, 14
+wait test, 3, 14
+wait test, 4, 14
+wait test, 4, 14
+wait test, 4, 14
+preemptive test, 20, 20
+wakeup test, 2, 10
+wakeup all test, 2, 6
+wakeup test, 2, 10
+wakeup test, 2, 10
+wakeup test, 10, 10
+wakeup all test, 6, 6
+wait test, 4, 14
+wait test, 4, 14
+wait test, 11, 14
+wait test, 14, 14
+wait test, 14, 14
+wait test, 14, 14
+wait test, 13, 14
+wait test, 10, 14
+wait test, 6, 14
+wait test, 14, 14
+wakeup all test, 6, 6
+lock test, 8, 14
+cv signal test, 14, 14
+cv broadcast test, 12, 12
+lock test, 0, 14
+lock test, 7, 14
+wait test, 14, 14
+wait test, 14, 14
+lock test, 8, 14
+lock test, 9, 14
+wait test, 14, 14
+cv signal test, 14, 14
+cv broadcast test, 12, 12
+wait test, 14, 14
+lock test, 14, 14
+cv signal test, 14, 14
+cv broadcast test, 12, 12

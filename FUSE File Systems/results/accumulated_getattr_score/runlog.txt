@@ -1,0 +1,41 @@
+Stat: /tmp/yeqimin1-vsfstest/sub/smallfile.00.00 - check blocks.
+1 != 8
+stat st_blocks appears to return VSFS blocks, not 512-byte sectors (0.5 pts deducted).
+Stat /tmp/yeqimin1-vsfstest/sub/smallfile.00.00: 
+	os.stat_result(st_mode=33188, st_ino=2, st_dev=163, st_nlink=1, st_uid=0, st_gid=0, st_size=42, st_atime=0, st_mtime=1651001722, st_ctime=0) [Type: File]
+Earned 5.5 raw points from stat smallfile.00.00.
+Stat: /tmp/yeqimin1-vsfstest/sub/smallfile.00.09 - check blocks.
+1 != 8
+stat st_blocks appears to return VSFS blocks, not 512-byte sectors (0.5 pts deducted).
+Stat /tmp/yeqimin1-vsfstest/sub/smallfile.00.09: 
+	os.stat_result(st_mode=33188, st_ino=3, st_dev=163, st_nlink=1, st_uid=0, st_gid=0, st_size=51, st_atime=0, st_mtime=1651001722, st_ctime=0) [Type: File]
+Earned 5.5 raw points from stat smallfile.00.09.
+Stat: /tmp/yeqimin1-vsfstest/sub/smallfile.03.04 - check blocks.
+4 != 32
+stat st_blocks appears to return VSFS blocks, not 512-byte sectors (0.5 pts deducted).
+Stat /tmp/yeqimin1-vsfstest/sub/smallfile.03.04: 
+	os.stat_result(st_mode=33188, st_ino=4, st_dev=163, st_nlink=1, st_uid=0, st_gid=0, st_size=12334, st_atime=0, st_mtime=1651001723, st_ctime=0) [Type: File]
+Earned 5.5 raw points from stat smallfile.03.04.
+Stat: /tmp/yeqimin1-vsfstest/sub/smallfile.05.00 - check blocks.
+6 != 56
+stat st_blocks appears to return VSFS blocks, not 512-byte sectors and does not include indirect block (1.0 pts deducted).
+Stat /tmp/yeqimin1-vsfstest/sub/smallfile.05.00: 
+	os.stat_result(st_mode=33188, st_ino=5, st_dev=163, st_nlink=1, st_uid=0, st_gid=0, st_size=20522, st_atime=0, st_mtime=1651001724, st_ctime=0) [Type: File]
+Earned 5.0 raw points from stat smallfile.05.00.
+Stat: /tmp/yeqimin1-vsfstest/sub/smallfile.07.15 - check blocks.
+8 != 72
+stat st_blocks appears to return VSFS blocks, not 512-byte sectors and does not include indirect block (1.0 pts deducted).
+Stat /tmp/yeqimin1-vsfstest/sub/smallfile.07.15: 
+	os.stat_result(st_mode=33188, st_ino=6, st_dev=163, st_nlink=1, st_uid=0, st_gid=0, st_size=28729, st_atime=0, st_mtime=1651001725, st_ctime=0) [Type: File]
+Earned 5.0 raw points from stat smallfile.07.15.
+Stat: /tmp/yeqimin1-vsfstest/sub - check size.
+0 != 36864
+Stat: /tmp/yeqimin1-vsfstest/sub - check blocks.
+0 != 80
+Stat /tmp/yeqimin1-vsfstest/sub: 
+	os.stat_result(st_mode=16895, st_ino=1, st_dev=163, st_nlink=2, st_uid=0, st_gid=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0) [Type: Dir]
+Earned 2.0 raw points from stat root directory.
+stat raised an unexpected exception on non-existent file: [Errno 1] Operation not permitted: '/tmp/yeqimin1-vsfstest/sub/file_does_not_exist'
+fsck.vsfs reports: All checks passed. File system appears to be consistent.
+Earned 7.125 / 10.0 marks for getattr.
+Elapsed time: 0.22884638491086662 seconds

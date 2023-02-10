@@ -1,0 +1,4 @@
+basic translation, 0.0, 8
+translation with eviction, 0.33333333333333337, 8
+lru replacement, 0, 5
+clock replacement, 0, 5

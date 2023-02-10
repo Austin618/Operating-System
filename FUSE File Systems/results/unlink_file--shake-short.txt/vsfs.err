@@ -1,0 +1,327 @@
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 35872
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 35083
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 35874
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 35874
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: UNLINK (10), nodeid: 1, insize: 56, pid: 35874
+unlink /shake-short.txt
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 51058
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 50568
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 51060
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 51060
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: UNLINK (10), nodeid: 1, insize: 56, pid: 51060
+unlink /shake-short.txt
+   unique: 12, success, outsize: 16
+unique: 14, opcode: FORGET (2), nodeid: 2, insize: 48, pid: 0
+FORGET 2/1
+DELETE: 2
+unique: 16, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 51060
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   unique: 16, error: -1 (Operation not permitted), outsize: 16
+unique: 18, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 51060
+getattr /
+   unique: 18, success, outsize: 120
+unique: 20, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 51060
+statfs /
+   unique: 20, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 51067
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: OPENDIR (27), nodeid: 1, insize: 48, pid: 50568
+   unique: 6, success, outsize: 32
+unique: 8, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 50568
+readdir[0] from 0
+   unique: 8, success, outsize: 200
+unique: 10, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 50568
+   unique: 10, success, outsize: 16
+unique: 12, opcode: RELEASEDIR (29), nodeid: 1, insize: 64, pid: 0
+   unique: 12, success, outsize: 16
+unique: 14, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 50568
+statfs /
+   unique: 14, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65293
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 64799
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 65295
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 65295
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: UNLINK (10), nodeid: 1, insize: 56, pid: 65295
+unlink /shake-short.txt
+   unique: 12, success, outsize: 16
+unique: 14, opcode: FORGET (2), nodeid: 2, insize: 48, pid: 0
+FORGET 2/1
+DELETE: 2
+unique: 16, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 65295
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   unique: 16, error: -1 (Operation not permitted), outsize: 16
+unique: 18, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65295
+getattr /
+   unique: 18, success, outsize: 120
+unique: 20, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 65295
+statfs /
+   unique: 20, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65302
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: OPENDIR (27), nodeid: 1, insize: 48, pid: 64799
+   unique: 6, success, outsize: 32
+unique: 8, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 64799
+readdir[0] from 0
+   unique: 8, success, outsize: 200
+unique: 10, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 64799
+   unique: 10, success, outsize: 16
+unique: 12, opcode: RELEASEDIR (29), nodeid: 1, insize: 64, pid: 0
+   unique: 12, success, outsize: 16
+unique: 14, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 64799
+statfs /
+   unique: 14, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1347
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 871
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 1349
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 1349
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: UNLINK (10), nodeid: 1, insize: 56, pid: 1349
+unlink /shake-short.txt
+   unique: 12, success, outsize: 16
+unique: 14, opcode: FORGET (2), nodeid: 2, insize: 48, pid: 0
+FORGET 2/1
+DELETE: 2
+unique: 16, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 1349
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   unique: 16, error: -1 (Operation not permitted), outsize: 16
+unique: 18, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1349
+getattr /
+   unique: 18, success, outsize: 120
+unique: 20, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 1349
+statfs /
+   unique: 20, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1356
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: OPENDIR (27), nodeid: 1, insize: 48, pid: 871
+   unique: 6, success, outsize: 32
+unique: 8, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 871
+readdir[0] from 0
+   unique: 8, success, outsize: 200
+unique: 10, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 871
+   unique: 10, success, outsize: 16
+unique: 12, opcode: RELEASEDIR (29), nodeid: 1, insize: 64, pid: 0
+   unique: 12, success, outsize: 16
+unique: 14, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 871
+statfs /
+   unique: 14, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7423
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 6882
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 7425
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 7425
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: UNLINK (10), nodeid: 1, insize: 56, pid: 7425
+unlink /shake-short.txt
+   unique: 12, success, outsize: 16
+unique: 14, opcode: FORGET (2), nodeid: 2, insize: 48, pid: 0
+FORGET 2/1
+DELETE: 2
+unique: 16, opcode: LOOKUP (1), nodeid: 1, insize: 56, pid: 7425
+LOOKUP /shake-short.txt
+getattr /shake-short.txt
+   unique: 16, error: -1 (Operation not permitted), outsize: 16
+unique: 18, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7425
+getattr /
+   unique: 18, success, outsize: 120
+unique: 20, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 7425
+statfs /
+   unique: 20, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7432
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: OPENDIR (27), nodeid: 1, insize: 48, pid: 6882
+   unique: 6, success, outsize: 32
+unique: 8, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 6882
+readdir[0] from 0
+   unique: 8, success, outsize: 200
+unique: 10, opcode: READDIR (28), nodeid: 1, insize: 80, pid: 6882
+   unique: 10, success, outsize: 16
+unique: 12, opcode: RELEASEDIR (29), nodeid: 1, insize: 64, pid: 0
+   unique: 12, success, outsize: 16
+unique: 14, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 6882
+statfs /
+   unique: 14, success, outsize: 96

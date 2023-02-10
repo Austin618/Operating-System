@@ -1,0 +1,475 @@
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 35791
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 35083
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 35793
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 35793
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 35793
+   unique: 12, success, outsize: 32
+unique: 14, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 35793
+   unique: 14, success, outsize: 32
+unique: 16, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 35793
+   unique: 16, success, outsize: 32
+unique: 18, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 35793
+   unique: 18, error: -38 (Function not implemented), outsize: 16
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 125, pid: 35793
+write[0] 45 bytes to 24586 flags: 0x8002
+   write[0] 45 bytes to 24586
+   unique: 20, success, outsize: 24
+unique: 22, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 35793
+   unique: 22, error: -38 (Function not implemented), outsize: 16
+unique: 24, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 24, success, outsize: 16
+unique: 26, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 35793
+getattr /shake-med.txt
+   unique: 26, success, outsize: 120
+unique: 28, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 35793
+statfs /
+   unique: 28, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 35809
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 35083
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 6, success, outsize: 144
+unique: 8, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 35083
+   unique: 8, success, outsize: 32
+unique: 10, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 35083
+   unique: 10, success, outsize: 32
+unique: 12, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 35083
+   unique: 12, success, outsize: 32
+unique: 14, opcode: READ (15), nodeid: 2, insize: 80, pid: 35083
+read[0] 4096 bytes from 24576 flags: 0x8000
+   read[0] 4096 bytes from 24576
+   unique: 14, success, outsize: 4112
+unique: 16, opcode: READ (15), nodeid: 2, insize: 80, pid: 35083
+read[0] 4096 bytes from 28672 flags: 0x8000
+   read[0] 4096 bytes from 28672
+   unique: 16, success, outsize: 4112
+unique: 18, opcode: READ (15), nodeid: 2, insize: 80, pid: 35083
+read[0] 4096 bytes from 32768 flags: 0x8000
+   read[0] 4096 bytes from 32768
+   unique: 18, success, outsize: 4112
+unique: 20, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 35083
+   unique: 20, error: -38 (Function not implemented), outsize: 16
+unique: 22, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 22, success, outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 51010
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 50568
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 51012
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 51012
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 51012
+   unique: 12, success, outsize: 32
+unique: 14, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 51012
+   unique: 14, success, outsize: 32
+unique: 16, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 51012
+   unique: 16, success, outsize: 32
+unique: 18, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 51012
+   unique: 18, error: -38 (Function not implemented), outsize: 16
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 125, pid: 51012
+write[0] 45 bytes to 24586 flags: 0x8002
+   write[0] 45 bytes to 24586
+   unique: 20, success, outsize: 24
+unique: 22, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 51012
+   unique: 22, error: -38 (Function not implemented), outsize: 16
+unique: 24, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 24, success, outsize: 16
+unique: 26, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 51012
+getattr /shake-med.txt
+   unique: 26, success, outsize: 120
+unique: 28, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 51012
+statfs /
+   unique: 28, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 51019
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 50568
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 6, success, outsize: 144
+unique: 8, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 50568
+   unique: 8, success, outsize: 32
+unique: 10, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 50568
+   unique: 10, success, outsize: 32
+unique: 12, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 50568
+   unique: 12, success, outsize: 32
+unique: 14, opcode: READ (15), nodeid: 2, insize: 80, pid: 50568
+read[0] 4096 bytes from 24576 flags: 0x8000
+   read[0] 4096 bytes from 24576
+   unique: 14, success, outsize: 4112
+unique: 16, opcode: READ (15), nodeid: 2, insize: 80, pid: 50568
+read[0] 4096 bytes from 28672 flags: 0x8000
+   read[0] 4096 bytes from 28672
+   unique: 16, success, outsize: 4112
+unique: 18, opcode: READ (15), nodeid: 2, insize: 80, pid: 50568
+read[0] 4096 bytes from 32768 flags: 0x8000
+   read[0] 4096 bytes from 32768
+   unique: 18, success, outsize: 4112
+unique: 20, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 50568
+   unique: 20, error: -38 (Function not implemented), outsize: 16
+unique: 22, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 22, success, outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65236
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 64799
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 65238
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 65238
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 65238
+   unique: 12, success, outsize: 32
+unique: 14, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 65238
+   unique: 14, success, outsize: 32
+unique: 16, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 65238
+   unique: 16, success, outsize: 32
+unique: 18, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 65238
+   unique: 18, error: -38 (Function not implemented), outsize: 16
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 125, pid: 65238
+write[0] 45 bytes to 24586 flags: 0x8002
+   write[0] 45 bytes to 24586
+   unique: 20, success, outsize: 24
+unique: 22, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 65238
+   unique: 22, error: -38 (Function not implemented), outsize: 16
+unique: 24, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 24, success, outsize: 16
+unique: 26, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 65238
+getattr /shake-med.txt
+   unique: 26, success, outsize: 120
+unique: 28, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 65238
+statfs /
+   unique: 28, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65245
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 64799
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 6, success, outsize: 144
+unique: 8, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 64799
+   unique: 8, success, outsize: 32
+unique: 10, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 64799
+   unique: 10, success, outsize: 32
+unique: 12, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 64799
+   unique: 12, success, outsize: 32
+unique: 14, opcode: READ (15), nodeid: 2, insize: 80, pid: 64799
+read[0] 4096 bytes from 24576 flags: 0x8000
+   read[0] 4096 bytes from 24576
+   unique: 14, success, outsize: 4112
+unique: 16, opcode: READ (15), nodeid: 2, insize: 80, pid: 64799
+read[0] 4096 bytes from 28672 flags: 0x8000
+   read[0] 4096 bytes from 28672
+   unique: 16, success, outsize: 4112
+unique: 18, opcode: READ (15), nodeid: 2, insize: 80, pid: 64799
+read[0] 4096 bytes from 32768 flags: 0x8000
+   read[0] 4096 bytes from 32768
+   unique: 18, success, outsize: 4112
+unique: 20, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 64799
+   unique: 20, error: -38 (Function not implemented), outsize: 16
+unique: 22, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 22, success, outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1299
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 871
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 1301
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 1301
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 1301
+   unique: 12, success, outsize: 32
+unique: 14, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 1301
+   unique: 14, success, outsize: 32
+unique: 16, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 1301
+   unique: 16, success, outsize: 32
+unique: 18, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 1301
+   unique: 18, error: -38 (Function not implemented), outsize: 16
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 125, pid: 1301
+write[0] 45 bytes to 24586 flags: 0x8002
+   write[0] 45 bytes to 24586
+   unique: 20, success, outsize: 24
+unique: 22, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 1301
+   unique: 22, error: -38 (Function not implemented), outsize: 16
+unique: 24, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 24, success, outsize: 16
+unique: 26, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 1301
+getattr /shake-med.txt
+   unique: 26, success, outsize: 120
+unique: 28, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 1301
+statfs /
+   unique: 28, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1308
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 871
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 6, success, outsize: 144
+unique: 8, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 871
+   unique: 8, success, outsize: 32
+unique: 10, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 871
+   unique: 10, success, outsize: 32
+unique: 12, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 871
+   unique: 12, success, outsize: 32
+unique: 14, opcode: READ (15), nodeid: 2, insize: 80, pid: 871
+read[0] 4096 bytes from 24576 flags: 0x8000
+   read[0] 4096 bytes from 24576
+   unique: 14, success, outsize: 4112
+unique: 16, opcode: READ (15), nodeid: 2, insize: 80, pid: 871
+read[0] 4096 bytes from 28672 flags: 0x8000
+   read[0] 4096 bytes from 28672
+   unique: 16, success, outsize: 4112
+unique: 18, opcode: READ (15), nodeid: 2, insize: 80, pid: 871
+read[0] 4096 bytes from 32768 flags: 0x8000
+   read[0] 4096 bytes from 32768
+   unique: 18, success, outsize: 4112
+unique: 20, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 871
+   unique: 20, error: -38 (Function not implemented), outsize: 16
+unique: 22, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 22, success, outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7374
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 6882
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 7376
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 7376
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 7376
+   unique: 12, success, outsize: 32
+unique: 14, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 7376
+   unique: 14, success, outsize: 32
+unique: 16, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 7376
+   unique: 16, success, outsize: 32
+unique: 18, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 7376
+   unique: 18, error: -38 (Function not implemented), outsize: 16
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 125, pid: 7376
+write[0] 45 bytes to 24586 flags: 0x8002
+   write[0] 45 bytes to 24586
+   unique: 20, success, outsize: 24
+unique: 22, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 7376
+   unique: 22, error: -38 (Function not implemented), outsize: 16
+unique: 24, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 24, success, outsize: 16
+unique: 26, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 7376
+getattr /shake-med.txt
+   unique: 26, success, outsize: 120
+unique: 28, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 7376
+statfs /
+   unique: 28, success, outsize: 96
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7383
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 6882
+LOOKUP /shake-med.txt
+getattr /shake-med.txt
+   NODEID: 2
+   unique: 6, success, outsize: 144
+unique: 8, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 6882
+   unique: 8, success, outsize: 32
+unique: 10, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 6882
+   unique: 10, success, outsize: 32
+unique: 12, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 6882
+   unique: 12, success, outsize: 32
+unique: 14, opcode: READ (15), nodeid: 2, insize: 80, pid: 6882
+read[0] 4096 bytes from 24576 flags: 0x8000
+   read[0] 4096 bytes from 24576
+   unique: 14, success, outsize: 4112
+unique: 16, opcode: READ (15), nodeid: 2, insize: 80, pid: 6882
+read[0] 4096 bytes from 28672 flags: 0x8000
+   read[0] 4096 bytes from 28672
+   unique: 16, success, outsize: 4112
+unique: 18, opcode: READ (15), nodeid: 2, insize: 80, pid: 6882
+read[0] 4096 bytes from 32768 flags: 0x8000
+   read[0] 4096 bytes from 32768
+   unique: 18, success, outsize: 4112
+unique: 20, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 6882
+   unique: 20, error: -38 (Function not implemented), outsize: 16
+unique: 22, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 22, success, outsize: 16

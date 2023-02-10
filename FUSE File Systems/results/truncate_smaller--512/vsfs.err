@@ -1,0 +1,165 @@
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 35677
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 35083
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 35679
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 55, pid: 35679
+LOOKUP /shake-long.txt
+getattr /shake-long.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 35679
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+unique: 14, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 35679
+truncate /shake-long.txt 512
+   unique: 14, error: -38 (Function not implemented), outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 50947
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 50568
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 50949
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 55, pid: 50949
+LOOKUP /shake-long.txt
+getattr /shake-long.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 50949
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+unique: 14, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 50949
+truncate /shake-long.txt 512
+   unique: 14, error: -38 (Function not implemented), outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 65171
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 64799
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 65173
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 55, pid: 65173
+LOOKUP /shake-long.txt
+getattr /shake-long.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 65173
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+unique: 14, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 65173
+truncate /shake-long.txt 512
+   unique: 14, error: -38 (Function not implemented), outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 1227
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 871
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 1229
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 55, pid: 1229
+LOOKUP /shake-long.txt
+getattr /shake-long.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 1229
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+unique: 14, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 1229
+truncate /shake-long.txt 512
+   unique: 14, error: -38 (Function not implemented), outsize: 16
+FUSE library version: 2.9.9
+nullpath_ok: 0
+nopath: 0
+utime_omit_ok: 0
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.34
+flags=0x33fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000011
+   max_readahead=0x00020000
+   max_write=0x00001000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: GETATTR (3), nodeid: 1, insize: 56, pid: 7309
+getattr /
+   unique: 4, success, outsize: 120
+unique: 6, opcode: ACCESS (34), nodeid: 1, insize: 48, pid: 6882
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: STATFS (17), nodeid: 1, insize: 40, pid: 7311
+statfs /
+   unique: 8, success, outsize: 96
+unique: 10, opcode: LOOKUP (1), nodeid: 1, insize: 55, pid: 7311
+LOOKUP /shake-long.txt
+getattr /shake-long.txt
+   NODEID: 2
+   unique: 10, success, outsize: 144
+unique: 12, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 7311
+   unique: 12, error: -38 (Function not implemented), outsize: 16
+unique: 14, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 7311
+truncate /shake-long.txt 512
+   unique: 14, error: -38 (Function not implemented), outsize: 16

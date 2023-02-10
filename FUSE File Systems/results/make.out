@@ -1,0 +1,110 @@
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+gcc mkfs.c -o mkfs.o -c -MMD -D_FILE_OFFSET_BITS=64 -I/usr/include/fuse -g3 -Wall -Wextra -Werror 
+gcc mkfs.o bitmap.o map.o -o mkfs.vsfs -lfuse -pthread 
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+gcc fs_ctx.c -o fs_ctx.o -c -MMD -D_FILE_OFFSET_BITS=64 -I/usr/include/fuse -g3 -Wall -Wextra -Werror 
+gcc vsfs.o fs_ctx.o options.o bitmap.o map.o -o vsfs -lfuse -pthread 
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'mkfs.vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: 'vsfs' is up to date.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Entering directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/h/u8/c9/00/yeqimin1/Desktop/csc369-a5'

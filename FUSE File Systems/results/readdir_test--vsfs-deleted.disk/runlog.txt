@@ -1,0 +1,2 @@
+checking if submission listing of vsfs-deleted.disk matches expected.
+Elapsed time: 0.36704462696798146 seconds
