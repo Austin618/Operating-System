@@ -1,4 +1,4 @@
-# Operating-System
+# Operating System
 
 ### Thread
 ### Process
